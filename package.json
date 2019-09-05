@@ -1,5 +1,5 @@
 {
-  "name": "npm-check",
+  "name": "composer-check",
   "version": "5.9.0",
   "description": "Check for outdated, incorrect, and unused dependencies.",
   "main": "lib",
@@ -16,7 +16,7 @@
     "prepublish": "npm run transpile"
   },
   "xo": {
-    "space": 4,
+    "space": 2,
     "rules": {
       "no-warning-comments": [
         0
@@ -27,14 +27,14 @@
     }
   },
   "bin": {
-    "npm-check": "bin/cli.js"
+    "composer-check": "bin/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dylang/npm-check.git"
+    "url": "https://github.com/nysos3/composer-check.git"
   },
   "keywords": [
-    "npm",
+    "composer",
     "outdated",
     "dependencies",
     "unused",
@@ -51,14 +51,14 @@
     "devDependencies"
   ],
   "author": {
-    "name": "Dylan Greene",
-    "email": "dylang@gmail.com"
+    "name": "Cody Carrell",
+    "email": "nysos3@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dylang/npm-check/issues"
+    "url": "https://github.com/nysos3/composer-check/issues"
   },
-  "homepage": "https://github.com/dylang/npm-check",
+  "homepage": "https://github.com/nysos3/composer-check",
   "files": [
     "bin",
     "lib",
@@ -79,6 +79,7 @@
     "lodash": "^4.7.0",
     "meow": "^3.7.0",
     "minimatch": "^3.0.2",
+    "node-composer-runner": "^0.4.0",
     "node-emoji": "^1.0.3",
     "ora": "^0.2.1",
     "package-json": "^4.0.1",
